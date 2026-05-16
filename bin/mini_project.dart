@@ -1,5 +1,11 @@
 import 'package:mini_project/mini_project.dart' as mini_project;
+import 'dart:io';
 
 void main(List<String> arguments) {
-  print('Hello world: ${mini_project.calculate()}!');
+
+  stdout.write("Enter Your Name: ");
+
+  String? name = stdin.readLineSync();
+
+  print(name);
 }
